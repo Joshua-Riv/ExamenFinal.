@@ -1,0 +1,181 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+.eco-container {
+    width: 90%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+/* ENCABEZADO */
+
+.eco-header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .eco-header h1 {
+        margin: 0;
+    }
+
+    .eco-header p {
+        margin: 10px 0;
+    }
+
+/* FORMULARIOS */
+
+.eco-form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+    .eco-form h2 {
+        color: #388e3c;
+        text-align: center;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #aaaaaa;
+}
+
+/* BOTONES */
+
+.btn-eco {
+    width: 100%;
+    padding: 9px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+    .btn-eco:hover {
+        background-color: #388e3c;
+    }
+
+/* TABLAS */
+
+.eco-registros {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    overflow-x: auto;
+}
+
+    .eco-registros h2 {
+        color: #388e3c;
+        text-align: center;
+    }
+
+.tabla-reciclaje {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tabla-reciclaje th {
+        background-color: #4caf50;
+        color: white;
+        padding: 8px;
+    }
+
+    .tabla-reciclaje td {
+        padding: 8px;
+        border: 1px solid #cccccc;
+        text-align: center;
+    }
+
+/* ESTADÍSTICAS */
+
+.eco-estadistica {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+    .eco-estadistica h2 {
+        color: #388e3c;
+        text-align: center;
+    }
+
+/* ERRORES */
+
+.mensaje-error {
+    color: red;
+    font-size: 13px;
+}
+
+/* INFORMACIÓN */
+
+.eco-info {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+    .eco-info h2 {
+        color: #388e3c;
+    }
+
+    .eco-info p {
+        line-height: 1.5;
+    }
+
+/* TARJETAS */
+
+.eco-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.eco-card {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+    .eco-card h3 {
+        color: #388e3c;
+    }
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    .eco-container {
+        width: 95%;
+    }
+
+    .eco-cards {
+        display: block;
+    }
+
+    .eco-card {
+        margin-bottom: 10px;
+    }
+}
